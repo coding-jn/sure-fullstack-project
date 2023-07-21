@@ -13,6 +13,7 @@ The package manager used is `poetry = "^1.2.2"`. [Learn more here.](https://pyth
 _Ensure you have a valid version of poetry and python installed, see above for details_
 
 1. Type `poetry install` to gather all requirements
+2. Type `python manage.py migrate` to run any new migrations 
 1. Run demo server with `poetry run python manage.py runserver`
 1. Navigate to [http://localhost:8000](http://localhost:8000) to view the HTML interface for the django rest framework
 

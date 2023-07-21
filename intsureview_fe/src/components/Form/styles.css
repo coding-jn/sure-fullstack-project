@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-right: 10px;
+}
+
+.order-list-header {
+  margin: 0;
+  padding: 25px;
+}
+
+.order-list {
+  list-style: none;
+  margin: 0;
+  padding: 25px;
+}
+
+.list-item {
+  margin-bottom: 15px;
+}
+
+.item-field {
+  margin: 0;
+}
+
+.field-name {
+  font-weight: 600;
+  margin-right: 5px;
+}
